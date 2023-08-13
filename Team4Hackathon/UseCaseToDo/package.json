@@ -1,0 +1,34 @@
+{
+  "name": "usecasetodo",
+  "version": "1.0.0",
+  "description": "Team4 Hackathon",
+  "main": "webpack.config.js",
+  "scripts": {
+    "serve": "nodemon server/server.js --ignore components"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya-Varatharajan/Team4ToDo.git"
+  },
+  "author": "Divya-Varatharajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya-Varatharajan/Team4ToDo/issues"
+  },
+  "homepage": "https://github.com/Divya-Varatharajan/Team4ToDo#readme",
+  "dependencies": {
+    "babel-loader": "^9.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-storage": "^4.1.2",
+    "webpack": "^5.88.2",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-hot-middleware": "^2.25.4"
+  }
+}
